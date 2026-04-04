@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    position: relative;
+    /* padding: 10px; */
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    padding: 15px;
+    height: 70px;
+    /* background-color: rgba(105, 105, 105, 0.475); */
+
+}
+.left-nav-logo{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.menu-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 3px;
+    /* bgc: #f58529; */
+}
+
+.menu-bar .first-line{
+    height:4px ;
+    width: 30px;
+    border-radius: 6px;
+
+    background-color:#FD0000;
+    
+    
+}
+.menu-bar .second-line{
+    height:4px ;
+    width: 15px;
+    border-radius: 6px;
+    
+    background-color:#FD0000;
+    
+    
+    
+}
+.menu-bar .third-line{
+    height:4px ;
+    width: 20px;
+    border-radius: 6px;
+    
+     
+    background-color:#FD0000;
+
+
+}
+ul li{
+    list-style: none;
+    
+}
+.Navlink{
+    text-decoration: none;
+
+}
+.right-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight:400;
+    /* font-family:; */
+    /* color: blue; */
+    
+   
+}
+
+
+
+.first-line, .second-line{
+    display: flex;
+    gap: 25px;
+     align-items: center;
+    font-size: 18px;
+    /* font-family: monospace; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+
+.social-media-nav{
+    display: flex;
+    gap: 10px;
+    /* background-color: blue; */
+    color: #fff;
+}
+@media (max-width:1020px) {
+    .social-media-nav{
+        display: none;
+    }
+    
+}
+@media (max-width:911px) {
+    
+.left-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid; */
+    width: 100%;
+    /* height: 73px; */
+
+}
+    .navbar{
+        border: none;
+        border: 1px solid;
+        height: 45px;
+        /* position: fixed; */
+    }
+    .right-nav{
+        box-sizing: border-box;
+        gap: 0px;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        /* margin-right: 5px;
+        margin-left: 5px; */
+        border-top: 2px solid;
+        background-color: #fff;
+
+
+    }
+
+     ul li{
+        /* border: 1px solid; */
+        border-bottom: 2px solid;
+        padding: 10px;
+        box-sizing: border-box;
+        width: 100%;
+
+    }
+    
+.first-line, .second-line{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+     align-items: start;
+    font-size: 18px;
+    /* font-family: monospace; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    /* border: 1px solid; */
+    /* padding-left: 10px; */
+
+}
+
+
+
+
+    
+}
+@media (min-width:911px) {
+    .menu-bar{
+        display: none;
+    }
+    
+}
+.icon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+  /* border-radius: 50%;   circle */
+  color: white;         /* icon color */
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+ 
+.fb {
+  background-color: #1877F2;
+}
+
+.ig {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+}
+
+.tw {
+  background-color: #1DA1F2;
+}
+
+ 
+.icon:hover {
+  transform: scale(1.1);
+}
+.left-nav-logo{
+    font-size: 30px;
+    font-family:monospace ;
+}
+
+/* ===== MOBILE MENU ANIMATION ===== */
+
+@media (max-width:911px) {
+
+ .right-nav {
+    position: absolute;
+    /* top: 45px; navbar ki height ke according */
+    top: 74px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+
+    /* max-height: 500px; */
+    max-height: 0;
+    /* transition: max-height 0.4s ease-in-out; */
+    transition: max-height 0.5s ease;
+  }
+
+  .right-nav.active {
+    max-height: 500px; /* jitni approx height ho menu ki */
+  }
+}
+
+/* ===== ACTIVE LINK ===== */
+
+/* mobile */
+.active-link {
+    /* width: 100%; */
+  /* background-color: pink; */
+  color: red !important;
+}
+
+/* laptop */
+@media (min-width:911px) {
+  .active-link {
+    background-color: transparent;
+    color: red !important;
+  }
+}
