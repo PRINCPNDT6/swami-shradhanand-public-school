@@ -60,7 +60,7 @@
 
 
 }
-ul li{
+.navbar  li{
     list-style: none;
     
 }
@@ -143,7 +143,7 @@ ul li{
         max-height: 500px; /* jitni approx height ho menu ki */
         }
 
-     ul li{
+    .navbar ul li{
         /* border: 1px solid; */
         border-bottom: 2px solid;
         padding: 10px;
@@ -179,7 +179,7 @@ ul li{
     }
     
 }
-.icon {
+.navbar .icon {
   width: 35px;
   height: 35px;
   display: flex;
@@ -193,20 +193,20 @@ ul li{
 }
 
  
-.fb {
+.navbar .fb {
   background-color: #1877F2;
 }
 
-.ig {
+.navbar .ig {
   background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
 }
 
-.tw {
+.navbar .tw {
   background-color: #1DA1F2;
 }
 
  
-.icon:hover {
+.navbar .icon:hover {
   transform: scale(1.1);
 }
 .left-nav-logo{
@@ -216,16 +216,16 @@ ul li{
  
 
   
-/* ===== ACTIVE LINK ===== */
 
-/* mobile */
+
+ 
 .active-link {
     /* width: 100%; */
   /* background-color: pink; */
   color: red !important;
 }
 
-/* laptop */
+ 
 @media (min-width:911px) {
   .active-link {
     background-color: transparent;

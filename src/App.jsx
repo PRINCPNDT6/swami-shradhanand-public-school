@@ -2,7 +2,7 @@
  import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 import './App.css'
-import Footer from './components/Footer'
+import Footer from './components/Footer/Footer'
 import Header from './components/Header'
 import Home from './components/Home'
 import About from './components/About'
@@ -13,6 +13,11 @@ import Booklist from './components/Booklist'
 import StudentsTC from './components/StudentsTC'
 import Teacherlist from './components/Teacherlist'
 import Moredetail from './components/Moredetail'
+import WhysspSchool from './components/Footer/WhysspSchool'
+import Directormsg from './components/Footer/Directormsg'
+import Ourstaff from './components/Footer/Ourstaff'
+import Ourstudent from './components/Footer/Ourstudent'
+import Principalmsg from './components/Footer/Principalmsg'
 
 function App() {
   
@@ -32,6 +37,12 @@ function App() {
               <Route path='/studentsTC' element ={<StudentsTC />}/> 
               <Route path='/teacherlist' element ={<Teacherlist />}/> 
               <Route path='/moredetail' element ={<Moredetail />}/> 
+              <Route path='/whysspschool' element = {<WhysspSchool />}/>
+              <Route path='/directormsg' element = {<Directormsg />}/>
+              <Route path='/ourstaff' element = {<Ourstaff />}/>
+              <Route path='/ourstudent' element = {<Ourstudent />}/>
+              <Route path='/principalmsg' element = {<Principalmsg />}/>
+              <Route path='/whysspschool' element = {<WhysspSchool />}/>
             </Routes>
           <Footer />
        </BrowserRouter>

@@ -34,7 +34,7 @@ function Navbar() {
 
         </ul>
 
-        {/* 👇 yaha class add ki hai */}
+        
         <ul className={`right-nav ${menuOpen ? "active" : ""}`}>
 
           <div className="first-line">
