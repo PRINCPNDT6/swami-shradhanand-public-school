@@ -15,7 +15,12 @@
     padding: 15px;
     height: 70px;
     /* background-color: rgba(105, 105, 105, 0.475); */
+    background-color: #fff;
 
+}
+.navbar {
+    position: relative;   /* ya fixed bhi kar sakte ho */
+    z-index: 1000;        /* 🔥 high value */
 }
 .left-nav-logo{
     list-style: none;

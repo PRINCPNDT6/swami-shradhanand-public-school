@@ -95,12 +95,20 @@
 
 
 }
+
+@media (max-width:911px) {
+    .footer .links{
+        width: 100%;
+    }
+    
+}
 .links .about-school, .quick-links{
 /* border: 1px solid; */
 width: 100%;
 }
 .links .quick-links{
     margin-left: 40px;
+    box-sizing: border-box;
 }
 .footer .links .bottom-line{
     height: 2px;
@@ -114,7 +122,15 @@ width: 100%;
 
 .links .quick-links .bottom-line{
     width: 100%;
+
 }
+
+/* @media (max-width:911px) {
+    .links .quick-links .bottom-line{
+        /* width: ; */
+    }
+    
+} */
 .links ul {
     display: flex;
     flex-direction: column;
