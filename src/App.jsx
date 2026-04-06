@@ -1,5 +1,5 @@
 //  import {BrowserRouter, Routes, Route} from 'react-router-dom'
- import {BrowserRouter, Routes, Route} from 'react-router-dom'
+ import {HashRouter, Routes, Route} from 'react-router-dom'
 
 import './App.css'
 import Footer from './components/Footer/Footer'
@@ -25,7 +25,7 @@ function App() {
   return (
     <>
        <>
-       <BrowserRouter>
+       <HashRouter>
           <Header />
             <Routes>
               <Route path='/about' element ={<About />}/> 
@@ -37,7 +37,7 @@ function App() {
               <Route path='/studentsTC' element ={<StudentsTC />}/> 
               <Route path='/teacherlist' element ={<Teacherlist />}/> 
               <Route path='/moredetail' element ={<Moredetail />}/> 
-              <Route path='/whysspschool' element = {<WhysspSchool />}/>
+               
               <Route path='/directormsg' element = {<Directormsg />}/>
               <Route path='/ourstaff' element = {<Ourstaff />}/>
               <Route path='/ourstudent' element = {<Ourstudent />}/>
@@ -45,7 +45,7 @@ function App() {
               <Route path='/whysspschool' element = {<WhysspSchool />}/>
             </Routes>
           <Footer />
-       </BrowserRouter>
+       </HashRouter>
        </>
     </>
   )
