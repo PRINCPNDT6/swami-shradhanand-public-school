@@ -107,19 +107,23 @@ useEffect(() => {
 
 
         
-        <div style={{width:'50%', boxSizing:'border-box'}} className="about-text">
+       <div className="about-last-section">
 
-          <div className="aboutT aboutT-C">
-            <h3 className='h3-3'>Most Advanced UP Board School In Baghpat</h3>
-            <h2 className='h2-2'>Inspiring Future Generation!</h2>
-            <p>At Swami SharadhaNand School, we are committed to shaping the leaders of tomorrow by fostering curiosity, creativity, and confidence. Through innovative learning methods, hands-on experiences, and a values-driven approach, we empower students with knowledge and skills to excel in a rapidly evolving world. Our holistic education nurtures critical thinking, leadership, and adaptability, ensuring every child grows into a responsible, innovative, and successful individual, ready to make a meaningful impact.</p>
-          </div>
-           
-        </div>
-        <div style={{width:'50%', display:'flex', justifyContent:'center', alignItems:'center '}} className="about-image none">
-           
-          <img src={aboutusimg} style={{height:'400px', width:'90%'}} alt="" />
-        </div>
+  <div className="about-text">
+    <div className="aboutT aboutT-C">
+      <h3 className='h3-3'>Most Advanced UP Board School In Baghpat</h3>
+      <h2 className='h2-2'>Inspiring Future Generation!</h2>
+      <p>
+        At Swami SharadhaNand School, we are committed to shaping the leaders of tomorrow by fostering curiosity, creativity, and confidence. Through innovative learning methods, hands-on experiences, and a values-driven approach, we empower students with knowledge and skills to excel in a rapidly evolving world.
+      </p>
+    </div>
+  </div>
+
+  <div className="about-image second-img">
+    <img src={aboutusimg} alt="" />
+  </div>
+
+</div>
         
      </>
   )
