@@ -125,12 +125,7 @@ width: 100%;
 
 }
 
-/* @media (max-width:911px) {
-    .links .quick-links .bottom-line{
-        /* width: ; */
-    }
-    
-} */
+ 
 .links ul {
     display: flex;
     flex-direction: column;
