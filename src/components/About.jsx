@@ -3,6 +3,8 @@ import './About.css'
 import { useEffect } from "react";
 import aboutheroImg from '../assets/aboutheroimg.jpg'
 import aboutusimg from '../assets/aboutusimg.jpg'
+import Feedbackslider from '../components/FeedBackSlider/Feedbackslider.jsx'
+import Mission from './Mission.jsx';
 function About() {
 
 useEffect(() => {
@@ -121,9 +123,12 @@ useEffect(() => {
 
   <div className="about-image second-img">
     <img src={aboutusimg} alt="" />
-  </div>
+  </div> 
 
 </div>
+
+<Feedbackslider />
+<Mission />
         
      </>
   )
