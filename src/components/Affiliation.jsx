@@ -18,7 +18,7 @@ function Affiliation() {
             <img src={affiliationsecondImg} alt="" />
           <div className="text">
             <h1>UP Affiliation</h1>
-            <p>BIT Global School is proudly affiliated with the Central Board of Secondary Education (CBSE), ensuring a high standard of education that aligns with national academic excellence. Our CBSE Affiliation Certificate reflects our commitment to providing a structured, well-regulated, and future-oriented curriculum. With CBSE-approved teaching methodologies, we focus on holistic development, critical thinking, and conceptual learning. This affiliation assures parents and students of a recognized, credible, and quality education system. On this page, we proudly display our CBSE Affiliation Certificate, reinforcing our dedication to maintaining the highest educational standards for a bright and successful future.</p>
+            <p>Swami SharadhaNand School is proudly affiliated with the UP Board of  Education (UP), ensuring a high standard of education that aligns with national academic excellence. Our UP Affiliation Certificate reflects our commitment to providing a structured, well-regulated, and future-oriented curriculum. With CBSE-approved teaching methodologies, we focus on holistic development, critical thinking, and conceptual learning. This affiliation assures parents and students of a recognized, credible, and quality education system. On this page, we proudly display our UP Affiliation Certificate, reinforcing our dedication to maintaining the highest educational standards for a bright and successful future.</p>
           </div>
           </div>
           <div className="certificate">
@@ -36,7 +36,7 @@ function Affiliation() {
           </div>
           <div className="imginnertext">
            <h1>Magic Moments Early Learning</h1>
-            <p>BIT Global School, Meerut, fosters holistic growth with global education, Indian values, and excellence in academics & sports.</p>
+            <p>Swami SharadhaNand School, Meerut, fosters holistic growth with global education, Indian values, and excellence in academics & sports.</p>
            <button onClick={() => {
               navigate('/contact');
               window.scrollTo(0, 0);
@@ -51,7 +51,7 @@ function Affiliation() {
             <hr />
             <h2>Contact Info</h2>
             <hr />
-            <p>We invite you to join the BIT Global School community, where education meets excellence, and students are prepared to lead by example in an ever-changing world.</p>
+            <p>We invite you to join the Swami SharadhaNand community, where education meets excellence, and students are prepared to lead by example in an ever-changing world.</p>
            <ul className='info-box'>
 
               <li>
