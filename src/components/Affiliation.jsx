@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import Herosection from './Herosection/Herosection'
 import upaffiliationHero from '../assets/upaffiliationHero.jpeg'
-import affiliationsecondImg from '../assets/affiliationsecondImg.jpg'
+import affiliationsecondImg from '../assets/affiliationsecondimg.jpg'
 import affiliationcertificate from '../assets/affiliation-certificate.jpg'
 import aboutusimg from '../assets/aboutusimg.jpg'
 function Affiliation() {
