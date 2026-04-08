@@ -1,0 +1,54 @@
+/* ===== HERO SECTION ===== */
+.hero-image {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-family: monospace;
+}
+
+.hero-text-Fspan {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero-text-Sspan {
+    font-size: 20px;
+}
+
+/* ===== HERO RESPONSIVE ===== */
+@media (max-width:911px) {
+    .hero-image {
+        height: 250px !important;
+    }
+
+    .hero-image img {
+        height: 250px !important;
+    }
+
+    .hero-text-Fspan {
+        font-size: 40px !important;
+    }
+
+    .hero-text-Sspan {
+        font-size: 16px;
+    }
+}

@@ -5,6 +5,8 @@ import aboutheroImg from '../assets/aboutheroimg.jpg'
 import aboutusimg from '../assets/aboutusimg.jpg'
 import Feedbackslider from '../components/FeedBackSlider/Feedbackslider.jsx'
 import Mission from './Mission.jsx';
+import Herosection from './Herosection/Herosection.jsx';
+
 function About() {
 
 useEffect(() => {
@@ -47,13 +49,7 @@ useEffect(() => {
 }, []);
   return (
      <>
-      <div className="hero-image" style={{position:'relative', backgroundColor:'blue', border:'none', height:'400px', opacity:'0.8'}}>
-        <img  src={aboutheroImg} style={{height:'400px', width:'100%', objectFit:'cover', opacity: '1', border:'none'}} alt="" />
-        <div style={{position:'absolute', left:'50%', top:'60%', transform: 'translate(-50%, -50%)', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', color:'#fff'}} className="hero-text">
-          <span style={{display:'block', fontSize:'60px', fontWeight:'bold'}} className='hero-text-Fspan'>About</span>
-          <span style={{fontSize:'20px'}}>Home/About</span>
-        </div>
-      </div>
+      <Herosection HeroImg={aboutheroImg} Pagename= 'About' />
 
 
 

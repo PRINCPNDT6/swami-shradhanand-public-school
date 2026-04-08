@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import footerImg from '../../assets/footerimg.jpeg'
-
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import './Footer.css'
 function Footer() {
   return (
@@ -72,11 +72,13 @@ function Footer() {
 
             
             <li>
+              <FaPhoneAlt className="contact-icon" />
               <a href="tel:7618612927">7618612927</a>
             </li>
 
              
             <li>
+               <FaEnvelope className="contact-icon" />
               <a href="mailto:krrishsharma698@gmail.com">
                 krrishsharma698@gmail.com
               </a>
@@ -85,6 +87,7 @@ function Footer() {
              
             <div className="address">
               <li>
+                 <FaMapMarkerAlt className="contact-icon" />
               <a 
                 href="https://www.google.com/maps/search/?api=1&query=Swami+Sharadhanand+Public+School+Barout+Budhana+Road+Uttar+Pradesh+250622" 
                 target="_blank" 
