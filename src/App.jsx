@@ -40,7 +40,7 @@ function App() {
               <Route path='/moredetail' element ={<Moredetail />}/> 
                
               <Route path='/directormsg' element = {<Directormsg />}/>
-              <Route path='/ourstaff' element = {<Ourstaff />}/>
+              <Route path='/' element = {<Ourstaff />}/>
               <Route path='/ourstudent' element = {<Ourstudent />}/>
               <Route path='/principalmsg' element = {<Principalmsg />}/>
               <Route path='/whysspschool' element = {<WhysspSchool />}/>

@@ -56,8 +56,8 @@ function Footer() {
                 <NavLink className= 'links-navlink' to= '/principalmsg'>Principal's Message</NavLink>
               </li>
               <li><NavLink className= 'links-navlink' to='/directormsg'>Director's Message</NavLink></li>
-              <li><NavLink className= 'links-navlink' to= '/ourstaff'>Our Staff</NavLink></li>
-              <li><NavLink className= 'links-navlink' to='/ourstudent'>Our Students</NavLink></li>
+              <li><NavLink className= 'links-navlink' to= '/'>Our Staff</NavLink></li>
+              {/* <li><NavLink className= 'links-navlink' to='/ourstudent'>Our Students</NavLink></li> */}
             </ul>
 
            

@@ -19,8 +19,8 @@
 
 }
 .navbar {
-    position: relative;   /* ya fixed bhi kar sakte ho */
-    z-index: 1000;        /* 🔥 high value */
+    position: relative;   
+    z-index: 1000;         
 }
 .left-nav-logo{
     list-style: none;
@@ -114,8 +114,13 @@
     
 }
 @media (max-width:911px) {
-    
+    .Navlink{
+        color: #000 !important;
+        font-weight: 400 !important;
+        margin-bottom: 5px;
+    }
 .left-nav{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -131,11 +136,12 @@
         /* position: fixed; */
     }
     .right-nav{
+        /* color: #000; */
         box-sizing: border-box;
         gap: 0px;
         position: absolute;
         border-top: 2px solid;
-         position: absolute;
+        position: absolute;
         top: 74px;
         left: 0;
         width: 100%;
@@ -154,7 +160,7 @@
     .navbar ul li{
         /* border: 1px solid; */
         border-bottom: 2px solid;
-        padding: 10px;
+        padding: 15px;
         box-sizing: border-box;
         width: 100%;
 

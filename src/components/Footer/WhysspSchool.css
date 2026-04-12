@@ -1,0 +1,19 @@
+ .another-p li{
+    color: rgba(0, 0, 0, 0.708);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+ }
+
+ .another-p span{
+    font-weight: bold;
+
+ }
+
+ .another-p p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color:darkslategray;
+    /* font-family; */
+ }

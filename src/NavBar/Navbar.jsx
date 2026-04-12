@@ -56,7 +56,7 @@ function Navbar() {
             <li>
               <NavLink to="/affiliation" onClick={handleLinkClick}
                 className={({ isActive }) => `Navlink ${isActive ? "active-link" : ""}`}>
-                CBSE Affiliation <TiArrowSortedDown style={{ fontSize: '17px' }} />
+                UP Affiliation <TiArrowSortedDown style={{ fontSize: '17px' }} />
               </NavLink>
             </li>
 
